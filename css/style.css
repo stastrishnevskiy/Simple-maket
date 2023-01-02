@@ -48,6 +48,7 @@ right: 0px;
 .nav {
     display: flex;
     justify-content: space-between;
+    
 }
 .menu-list {
     display: flex;
@@ -65,7 +66,13 @@ right: 0px;
 .menu-link {
 color:black;
 font-size: 16px;
+transition: all .3s ease;
 }
+
+.menu-link:hover {
+    color:gray;
+    
+    }
 
 .promo {
     background-image: url(../images/corset.jpg);
