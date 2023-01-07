@@ -52,12 +52,12 @@ body {
 
 .menu-list {
   display: flex;
-  gap: 0 40px;
+  gap: 0 25px;
 }
 
 .menu-link {
   color: lightyellow;
-  font-size: 16px;
+  font-size: 18px;
   transition: all 0.3s ease;
 }
 
@@ -130,6 +130,18 @@ body {
   gap: 20px;
 }
 
+.info__part-clean {
+  padding-top: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.info__part-order {
+  padding-top: 100px;
+  display: flex;
+  gap: 5px;
+}
+
 .info__part-textbox {
   display: flex;
   flex-direction: column;
@@ -141,9 +153,24 @@ body {
   order: 2;
 }
 
-.container:nth-child(even) {
-  display: none;
+.info__part:nth-of-type(even) .info__part-image {
+  order: 1;
 }
 
-.info__part-image img {
+.info__part:nth-of-type(even) .info__part-textbox {
+  order: 2;
+}
+
+.best__title {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.info__part-image-order {
+  width: 300px;
+}
+
+.info__part-image-clean {
+  width: 350px;
 }
