@@ -285,7 +285,7 @@ h6 {
   padding: 0 30px;
 }
 
-.container {
+.container__why {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -301,7 +301,7 @@ h6 {
 
 .why__body {
   order: 1;
-  height: 607px;
+  height: 604px;
   width: 914px;
   background-color: #62d0df;
 }
