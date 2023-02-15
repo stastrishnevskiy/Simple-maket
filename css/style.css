@@ -87,12 +87,10 @@ h6 {
   font-weight: 400;
 }
 
-
 .main-container {
   max-width: 1130px;
   margin: 0 auto;
 }
-
 
 .first-block {
   display: flex;
@@ -104,7 +102,7 @@ h6 {
 
 .first-block__backgound {
   height: 100%;
-  background: #F4F9E2;
+  background: #f4f9e2;
 }
 
 .header {
@@ -122,26 +120,26 @@ h6 {
 
 .navbar {
   display: flex;
-  gap: 5px
+  gap: 5px;
 }
 
 .navbar__item {
   padding: 10px 6px;
-  color: #22356F;
-  font-family: 'Larsseit';
+  color: #22356f;
+  font-family: "Larsseit";
   font-size: 14px;
   line-height: 16px;
   box-sizing: border-box;
 }
 
 .navbar__item:after {
-  content: '';
+  content: "";
   margin-top: 5px;
   display: block;
   width: 0%;
   height: 1px;
   background-color: black;
-  transition: width .3s ease;
+  transition: width 0.3s ease;
 }
 
 .navbar__item:hover:after,
@@ -158,13 +156,13 @@ h6 {
 
 .header__button {
   padding: 20px 30px;
-  background: #62D0DF;
+  background: #62d0df;
   border-radius: 50px;
 
   font-size: 14px;
   line-height: 16px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .content {
@@ -185,7 +183,6 @@ h6 {
   overflow: hidden;
 }
 
-
 .nav a {
   float: center;
   color: #22356f;
@@ -204,7 +201,8 @@ h6 {
   color: white;
 }
 
-.name {}
+.name {
+}
 
 .logo-text {
   color: #62d0df;
@@ -254,33 +252,48 @@ h6 {
   color: #fff;
 }
 
-.about {
-  height: 361px;
+.sport__options__block {
+  max-width: 1440px;
+  margin: 24px 0 120px 0;
 }
 
-.about__row {
+.sport__options__row {
   display: flex;
 }
-
-.about__title {
-  width: 93px;
-  height: 210px;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.06em;
-  margin: 156px 225px 0px 106px;
+.line {
+  width: 255px;
+  height: 72px;
+  margin: 0 52.5px 23px 52.5px;
+  border-bottom: 2px solid #fff;
+}
+.sport__column {
+  background-color: #fda296;
+  flex: 0 0 360px;
+  padding-bottom: 360px;
 }
 
-.about__text {
-  margin: 150px 424px 0px 225px;
-  width: 592px;
-  height: 210px;
+.column__title {
+  padding: 0 0 0 78px;
+  display: flex;
 }
-
-.about__text p {
-  font-size: 24px;
+.column__title p {
+  font-family: "Larsseit";
+  font-size: 32px;
   line-height: 34px;
-  letter-spacing: 0.005em;
+  letter-spacing: -0.006em;
+  color: #ffffff;
 }
+.column__title::before {
+  content: url(/images/dot.svg);
 
-.help {}
+  /* background-image: url(/images/dot.svg) 0 0 no-repeat; */
+}
+.green {
+  background-color: #c4e769;
+}
+.blue {
+  background-color: #62d0df;
+}
+.dark-blue {
+  background-color: #0052c1;
+}
