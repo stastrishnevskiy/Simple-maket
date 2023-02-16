@@ -87,12 +87,10 @@ h6 {
   font-weight: 400;
 }
 
-
 .main-container {
   max-width: 1130px;
   margin: 0 auto;
 }
-
 
 .first-block {
   display: flex;
@@ -104,7 +102,7 @@ h6 {
 
 .first-block__backgound {
   height: 100%;
-  background: #F4F9E2;
+  background: #f4f9e2;
 }
 
 .header {
@@ -122,26 +120,26 @@ h6 {
 
 .navbar {
   display: flex;
-  gap: 5px
+  gap: 5px;
 }
 
 .navbar__item {
   padding: 10px 6px;
-  color: #22356F;
-  font-family: 'Larsseit';
+  color: #22356f;
+  font-family: "Larsseit";
   font-size: 14px;
   line-height: 16px;
   box-sizing: border-box;
 }
 
 .navbar__item:after {
-  content: '';
+  content: "";
   margin-top: 5px;
   display: block;
   width: 0%;
   height: 1px;
   background-color: black;
-  transition: width .3s ease;
+  transition: width 0.3s ease;
 }
 
 .navbar__item:hover:after,
@@ -158,17 +156,17 @@ h6 {
 
 .header__button {
   padding: 20px 30px;
-  background: #62D0DF;
+  background: #62d0df;
   border-radius: 50px;
 
   font-size: 14px;
   line-height: 16px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .content {
-  max-width: 1437px;
+  max-width: 1440px;
   flex: 1 1 auto;
 }
 
@@ -184,7 +182,6 @@ h6 {
   height: 14px;
   overflow: hidden;
 }
-
 
 .nav a {
   float: center;
@@ -204,7 +201,8 @@ h6 {
   color: white;
 }
 
-.name {}
+.name {
+}
 
 .logo-text {
   color: #62d0df;
@@ -214,7 +212,7 @@ h6 {
 }
 
 .container {
-  max-width: 1437px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -254,33 +252,57 @@ h6 {
   color: #fff;
 }
 
-.about {
-  height: 361px;
+.other__options__block {
+  max-width: 1440px;
+  margin: 24px 0 120px 0;
 }
 
-.about__row {
+.other__options__row {
   display: flex;
+  flex-wrap: wrap;
 }
-
-.about__title {
-  width: 93px;
-  height: 210px;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.06em;
-  margin: 156px 225px 0px 106px;
+.other__line {
+  width: 340px;
+  height: 96px;
+  margin: 0 70px 30px 70px;
+  border-bottom: 2px solid #fff;
 }
-
-.about__text {
-  margin: 150px 424px 0px 225px;
-  width: 592px;
-  height: 210px;
+.other__column {
+  background-color: #22356f;
+  flex: 0 0 480px;
+  padding-bottom: 480px;
+  max-height: 480px;
 }
-
-.about__text p {
-  font-size: 24px;
+.other__column__title {
+  display: flex;
+  width: fit-content;
+}
+.other__column__title p {
+  margin-left: 104px;
+  font-family: "Larsseit";
+  font-size: 32px;
   line-height: 34px;
-  letter-spacing: 0.005em;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}
+.other__column__title p::before {
+  content: url(/images/dot.svg);
+  padding-right: 10px;
 }
 
-.help {}
+.mental {
+  background-color: #0052c1;
+}
+.gymnastics {
+  background-color: #62d0df;
+}
+.crossfit {
+  background-color: #dee1ff;
+}
+.aerobics {
+  background-color: #8f00ff;
+}
+.nutrition {
+  background-image: url(/images/nutrition.png);
+  background-size: 480px 480px;
+}
