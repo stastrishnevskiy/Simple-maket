@@ -87,12 +87,10 @@ h6 {
   font-weight: 400;
 }
 
-
 .main-container {
   max-width: 1130px;
   margin: 0 auto;
 }
-
 
 .first-block {
   display: flex;
@@ -104,7 +102,7 @@ h6 {
 
 .first-block__backgound {
   height: 100%;
-  background: #F4F9E2;
+  background: #f4f9e2;
 }
 
 .header {
@@ -122,26 +120,26 @@ h6 {
 
 .navbar {
   display: flex;
-  gap: 5px
+  gap: 5px;
 }
 
 .navbar__item {
   padding: 10px 6px;
-  color: #22356F;
-  font-family: 'Larsseit';
+  color: #22356f;
+  font-family: "Larsseit";
   font-size: 14px;
   line-height: 16px;
   box-sizing: border-box;
 }
 
 .navbar__item:after {
-  content: '';
+  content: "";
   margin-top: 5px;
   display: block;
   width: 0%;
   height: 1px;
   background-color: black;
-  transition: width .3s ease;
+  transition: width 0.3s ease;
 }
 
 .navbar__item:hover:after,
@@ -158,17 +156,17 @@ h6 {
 
 .header__button {
   padding: 20px 30px;
-  background: #62D0DF;
+  background: #62d0df;
   border-radius: 50px;
 
   font-size: 14px;
   line-height: 16px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .content {
-  max-width: 1437px;
+  max-width: 1440px;
   flex: 1 1 auto;
 }
 
@@ -184,7 +182,6 @@ h6 {
   height: 14px;
   overflow: hidden;
 }
-
 
 .nav a {
   float: center;
@@ -204,7 +201,8 @@ h6 {
   color: white;
 }
 
-.name {}
+.name {
+}
 
 .logo-text {
   color: #62d0df;
@@ -254,33 +252,34 @@ h6 {
   color: #fff;
 }
 
-.about {
-  height: 361px;
+.health__plan__block {
+  margin-top: 22px;
+  height: 100%;
 }
-
-.about__row {
+.health__plan__row {
   display: flex;
+  flex-wrap: wrap;
+}
+.health__plan__column {
+  flex: 0 0 480px;
+  height: 240px;
+}
+.health__plan__title {
+  padding: 55px 141px 0px 105px;
+  font-family: "Larsseit";
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #22356f;
 }
 
-.about__title {
-  width: 93px;
-  height: 210px;
+.health__plan__text {
+  padding: 28px 77px 37px 105px;
+}
+.health__plan__text p {
+  font-family: "Larsseit";
   font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.06em;
-  margin: 156px 225px 0px 106px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
 }
-
-.about__text {
-  margin: 150px 424px 0px 225px;
-  width: 592px;
-  height: 210px;
-}
-
-.about__text p {
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: 0.005em;
-}
-
-.help {}
