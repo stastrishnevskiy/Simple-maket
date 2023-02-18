@@ -168,7 +168,7 @@ h6 {
 }
 
 .content {
-  max-width: 1437px;
+  max-width: 1440px;
   flex: 1 1 auto;
 }
 
@@ -214,7 +214,7 @@ h6 {
 }
 
 .container {
-  max-width: 1437px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -254,33 +254,66 @@ h6 {
   color: #fff;
 }
 
-.about {
-  height: 361px;
+.ready__block {
+  height: 100%;
 }
-
-.about__row {
+.ready__row {
   display: flex;
 }
-
-.about__title {
-  width: 93px;
-  height: 210px;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.06em;
-  margin: 156px 225px 0px 106px;
+.ready__container {
+display: flex;
+flex-direction: column;
+width: 1440px;
+height: 800px;
+padding-left: 180px;
+background: #22356F;
+}
+.contact__btn {
+margin: 103px 0px 230px 0px;
+font-family: 'Larsseit';
+font-size: 16px;
+line-height: 12px;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+.ready__title {
+  margin: 0 0 75px 0px;
+  font-family: 'Larsseit';
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
 }
 
-.about__text {
-  margin: 150px 424px 0px 225px;
-  width: 592px;
-  height: 210px;
-}
+.ready__text {
+width: 579px;
+font-family: 'Larsseit';
+font-size: 36px;
+line-height: 53px;
+letter-spacing: -0.005em;
+color: #FFFFFF;
+flex: 1 1 auto;
 
-.about__text p {
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: 0.005em;
 }
-
-.help {}
+.ready__btn {
+display: flex;
+align-items: center;
+margin-bottom: 42px;
+font-family: 'Larsseit';
+font-size: 16px;
+line-height: 23px;
+letter-spacing: 0.1em;
+color: #62D0DF;
+text-transform: uppercase;
+}
+.ready__btn:active{
+  color: black;
+}
+.contact__btn:hover{
+  color:#62D0DF
+}
+.ready__img img {
+  flex: 0 0 480px;
+  height: 800px;
+}
