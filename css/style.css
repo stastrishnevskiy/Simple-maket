@@ -1,3 +1,10 @@
+:root{
+--color-blue-main: #62d0df;
+  --color-blue-dark: #319ead;
+  --color-white-main: #ffffff;
+  --color-midnight-blue: #22356F;
+  --color-navy: #0052C1;
+}
 * {
   padding: 0;
   margin: 0;
@@ -105,7 +112,7 @@ h6 {
   background: #f4f9e2;
 }
 .white__box {
-  background-color: #fff;
+  background-color: var(--color-white-main);
   width: 323px;
   height: 300px;
   position: absolute;
@@ -146,7 +153,7 @@ h6 {
 
 .navbar__item {
   padding: 10px 6px;
-  color: #22356f;
+  color: var(--color-midnight-blue);
   font-family: "Larsseit";
   font-size: 14px;
   line-height: 16px;
@@ -181,7 +188,7 @@ h6 {
   border-radius: 50px;
   font-size: 14px;
   line-height: 16px;
-  color: #ffffff;
+  color: var(--color-white-main);
 }
 
 .content {
@@ -204,7 +211,7 @@ h6 {
 
 .nav a {
   float: center;
-  color: #22356f;
+  color: var(--color-midnight-blue);
   padding: 0 8.5px;
   font-size: 14px;
   line-height: 16px;
@@ -212,24 +219,24 @@ h6 {
 }
 
 .nav a:hover {
-  background-color: #ddd;
+  background-color:var(--color-white-main);
   text-decoration: underline;
 }
 
 .nav a.active {
   background-color: #4caf50;
-  color: white;
+  color: var(--color-white-main);
 }
 
 .logo-text {
-  color: #62d0df;
+  color: var(--color-blue-main);
   font-size: 24px;
   line-height: 27px;
   letter-spacing: -0.035em;
   text-shadow: 0.5px 2.5px 5px black;
 }
 .logo__first-block {
-  color: #62d0df;
+  color: var(--color-blue-main);
   font-size: 24px;
   line-height: 27px;
   letter-spacing: -0.035em;
@@ -237,18 +244,16 @@ h6 {
 
 .main__title {
   margin-top: 40px;
-  font-family: "Larsseit";
   font-size: 48px;
   line-height: 53px;
   letter-spacing: -0.035em;
-  color: #22356f;
+  color: var(--color-midnight-blue);
 }
 .main__text {
   margin: 69px 0 63px 0;
-  font-family: "Larsseit";
   font-size: 24px;
   line-height: 42px;
-  color: #22356f;
+  color: var(--color-midnight-blue);
 }
 .main__buttons {
   display: flex;
@@ -258,7 +263,6 @@ h6 {
   margin-bottom: 75px;
 }
 .main__who__button {
-  font-family: "Larsseit";
   font-size: 16px;
   text-transform: uppercase;
   line-height: 23px;
@@ -266,13 +270,12 @@ h6 {
   align-items: center;
   letter-spacing: 0.1em;
   background: #f9b640;
-  color: #ffffff;
+  color: var(--color-white-main);
   line-height: 25px;
   display: block;
   padding: 0 30px;
 }
 .main__what__button {
-  font-family: "Larsseit";
   font-size: 16px;
   text-transform: uppercase;
   line-height: 23px;
@@ -303,14 +306,14 @@ h6 {
   order: 1;
   height: 607px;
   width: 914px;
-  background-color: #62d0df;
+  background-color: var(--color-blue-main);
 }
 
 .why__title {
   font-size: 36px;
   line-height: 27px;
   letter-spacing: -0.006em;
-  color: #fff;
+  color: var(--color-white-main);
   margin: 151px 513px 75px 171px;
 }
 
@@ -323,7 +326,7 @@ h6 {
 .why__text p {
   font-size: 24px;
   line-height: 35px;
-  color: #fff;
+  color: var(--color-white-main);
 }
 
 .about {
