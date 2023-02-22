@@ -1,10 +1,12 @@
-:root {
+:root{
   --color-blue-main: #62d0df;
-  --color-blue-dark: #319ead;
-  --color-white-main: #ffffff;
-  --color-midnight-blue: #22356F;
-  --color-navy: #0052C1;
-}
+    --color-blue-dark: #319ead;
+    --color-white-main: #ffffff;
+    --color-second-white: #f4f9e2;
+    --color-midnight-blue: #22356F;
+    --color-navy: #0052C1;
+    --color-text-gold: #f9b640;
+  }
 
 * {
   padding: 0;
