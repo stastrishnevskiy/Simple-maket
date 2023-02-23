@@ -1,3 +1,13 @@
+:root{
+  --color-blue-main: #62d0df;
+    --color-blue-dark: #319ead;
+    --color-white-main: #ffffff;
+    --color-second-white: #f4f9e2;
+    --color-midnight-blue: #22356F;
+    --color-navy: #0052C1;
+    --color-text-gold: #f9b640;
+  }
+
 * {
   padding: 0;
   margin: 0;
@@ -86,6 +96,7 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+<<<<<<< HEAD
 
 
 .main-container {
@@ -292,4 +303,8 @@ color: rgba(34, 53, 111, 0.5);
 }
 .mail{
   color: #006DFF;
+=======
+body {
+  font-family: "Larsseit", sans-serif;
+>>>>>>> master
 }
