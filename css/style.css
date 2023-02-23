@@ -103,7 +103,6 @@ body {
 
 .content {
   max-width: 1440px;
-  flex: 1 1 auto;
 }
 
 .ready__block {
@@ -117,51 +116,48 @@ body {
 .ready__container {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  min-width: 960px;
   height: 800px;
   padding-left: 180px;
-  background: #22356F;
+  background: var(--color-midnight-blue);
 }
 
 .contact__btn {
   margin: 103px 0px 230px 0px;
-  font-family: 'Larsseit';
   font-size: 16px;
   line-height: 12px;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: var(--color-white-main);
   text-transform: uppercase;
 }
 
 .ready__title {
   margin: 0 0 75px 0px;
-  font-family: 'Larsseit';
   font-size: 64px;
+  font-weight: 600;
   line-height: 94px;
   letter-spacing: -0.01em;
-  color: #FFFFFF;
+  color: var(--color-white-main);
 }
 
 .ready__text {
-  width: 579px;
-  font-family: 'Larsseit';
+  max-width: 579px;
   font-size: 36px;
   line-height: 53px;
   letter-spacing: -0.005em;
-  color: #FFFFFF;
+  color: var(--color-white-main);
   flex: 1 1 auto;
-
 }
 
 .ready__btn {
   display: flex;
   align-items: center;
   margin-bottom: 42px;
-  font-family: 'Larsseit';
   font-size: 16px;
+  font-weight: 600;
   line-height: 23px;
   letter-spacing: 0.1em;
-  color: #62D0DF;
+  color: var(--color-blue-main);
   text-transform: uppercase;
 }
 
@@ -170,10 +166,18 @@ body {
 }
 
 .contact__btn:hover {
-  color: #62D0DF
+  color: var(--color-blue-main);
+  font-size: 28px;
+}
+
+.ready__img {
+  display: flex;
+  justify-content: right;
 }
 
 .ready__img img {
   flex: 0 0 480px;
   height: 800px;
+  display: flex;
+  justify-content: right;
 }
