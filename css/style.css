@@ -2,9 +2,12 @@
   --color-blue-main: #62d0df;
   --color-blue-dark: #319ead;
   --color-white-main: #ffffff;
+  --color-second-white: #f4f9e2;
   --color-midnight-blue: #22356F;
   --color-navy: #0052C1;
+  --color-text-gold: #f9b640;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -93,26 +96,36 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+body {
+  font-family: "Larsseit", sans-serif;
+}
+
 .content {
   max-width: 1440px;
   flex: 1 1 auto;
 }
+
 .why-block {
   height: 100%;
 }
+
 .why__row {
   display: flex;
 }
+
 .why__image {
   order: 2;
   flex: 0 0 525px;
 }
+
 .why__container {
   order: 1;
   height: 604px;
   width: 914px;
   background-color: var(--color-blue-main);
 }
+
 .why__title {
   font-size: 36px;
   line-height: 27px;
@@ -120,9 +133,11 @@ h6 {
   color: var(--color-white-main);
   margin: 151px 513px 75px 171px;
 }
+
 .why__text {
   margin: 0px 181px 95px 178px;
 }
+
 .why__text p {
   font-size: 24px;
   line-height: 35px;
