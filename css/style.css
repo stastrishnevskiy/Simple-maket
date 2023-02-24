@@ -107,10 +107,6 @@ body {
   background: var(--color-second-white);
 }
 
-.main-container {
-  max-width: 1440px;
-}
-
 .first-block {
   margin: 0 125px 0 179px;
   display: flex;
@@ -122,10 +118,10 @@ body {
 .white__box {
   background-color: var(--color-white-main);
   width: 323px;
-  height: 300px;
+  height: 400px;
   position: absolute;
   left: 1117px;
-  top: 540px;
+  top: 460px;
 }
 
 .blue__back img {
@@ -192,19 +188,21 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: var(--color-white-main);
+  border: solid 2px var(--color-blue-main);
 }
 
 .header__button:hover {
   background: var(--color-blue-dark);
   border: solid 2px var(--color-midnight-blue);
+  color: var(--color-midnight-blue);
 }
 
 .main-info {
-  padding: 147px 640px 0 0px;
+  padding: 147px 640px 75px 0px;
 }
 
 .logo-text {
-  text-shadow: 0.5px 2.5px 5px black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main__logo {
