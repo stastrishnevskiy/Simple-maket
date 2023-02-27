@@ -119,23 +119,22 @@ body {
 .white__box {
   background-color: var(--color-white-main);
   width: 323px;
-  height: 400px;
+  height: 100%;
   position: absolute;
-  left: 1117px;
-  top: 460px;
+  right: 0;
 }
 
-.blue__back img {
+.blue__back {
   position: absolute;
   top: 0px;
-  left: 870px;
+  right: 0;
   width: 570px;
 }
 
-.expert__back img {
+.expert__back {
   position: absolute;
   top: 10px;
-  left: 720px;
+  right: 0;
   width: 720px;
 }
 
@@ -196,6 +195,10 @@ body {
   background: var(--color-blue-dark);
   border: solid 2px var(--color-midnight-blue);
   color: var(--color-midnight-blue);
+}
+
+.main-container {
+  max-width: 1440px;
 }
 
 .main-info {
@@ -260,4 +263,10 @@ body {
 .no-background:hover {
   background: var(--color-text-gold);
   color: var(--color-white-main);
+}
+
+@media(max-width: 1140px) {
+  .expert__back {
+    display: none;
+  }
 }
