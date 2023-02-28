@@ -103,43 +103,44 @@ body {
 
 .content {
   max-width: 1440px;
-  flex: 1 1 auto;
 }
 
 .why-block {
   height: 100%;
-}
-
-.why__row {
   display: flex;
 }
 
-.why__image {
+.why-block__image {
   order: 2;
-  flex: 0 0 525px;
+  flex-basis: 36.48%;
 }
 
-.why__container {
+.why-block__content {
   order: 1;
-  height: 604px;
-  width: 914px;
+  flex-basis: 63.52%;
+  max-height: 604px;
+  max-width: 914px;
   background-color: var(--color-blue-main);
+  padding: 151px 181px 95px 178px;
 }
 
-.why__title {
+.why-block__title {
   font-size: 36px;
-  line-height: 27px;
+  line-height: 27.42px;
   letter-spacing: -0.006em;
+  font-weight: 600;
   color: var(--color-white-main);
-  margin: 151px 513px 75px 171px;
 }
 
-.why__text {
-  margin: 0px 181px 95px 178px;
+.why-block__text {
+  margin-top: 75px;
+  font-size: 20px;
+  line-height: 29.3px;
+  color: var(--color-white-main);
 }
 
-.why__text p {
+.bold__text {
+  font-weight: 600;
   font-size: 24px;
-  line-height: 35px;
-  color: var(--color-white-main);
+  line-height: 35.16px;
 }
