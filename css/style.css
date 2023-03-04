@@ -113,6 +113,7 @@ body {
 .why-block__image {
   order: 2;
   flex-basis: 36.48%;
+  max-width: 36.48%;
 }
 
 .why-block__content {
