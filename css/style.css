@@ -114,6 +114,8 @@ body {
   order: 2;
   flex-basis: 36.48%;
   max-width: 36.48%;
+  object-fit: cover;
+  object-position: left;
 }
 
 .why-block__content {
