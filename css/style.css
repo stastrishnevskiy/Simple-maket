@@ -114,7 +114,7 @@ body {
 .some__info-block__image {
   max-width: 39.58%;
   object-fit: cover;
-  object-position: left;
+  object-position: center;
 }
 
 .some__info-block__content {
