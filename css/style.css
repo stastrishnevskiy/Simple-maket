@@ -105,34 +105,27 @@ body {
   max-width: 1440px;
 }
 
-.health__plan-block {
+.health-plan-block {
   margin-top: 22px;
   height: 100%;
-}
-
-.health__plan__row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.health__plan__column {
-  flex: 0 0 480px;
-  height: 240px;
+.health-plan__item {
+  padding: 55px 77px 37px 105px;
+  width: 33.333%;
 }
 
-.health__plan__title {
-  padding: 55px 141px 0px 105px;
+.health-plan__title {
   font-size: 28px;
   line-height: 33px;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.84px;
   color: var(--color-midnight-blue);
 }
 
-.health__plan__text {
-  padding: 28px 77px 37px 105px;
-}
-
-.health__plan__text p {
+.health-plan__text {
+  margin-top: 28px;
   font-size: 16px;
   line-height: 25px;
   letter-spacing: -0.03em;
