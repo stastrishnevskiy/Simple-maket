@@ -97,41 +97,34 @@ h6 {
   font-weight: 400;
 }
 
+body {
+  font-family: "Larsseit", sans-serif;
+}
+
 .content {
   max-width: 1440px;
-  flex: 1 1 auto;
 }
 
 .some__info-block {
   height: 100%;
-
-}
-
-.some__info__row {
   display: flex;
   gap: 68px;
 }
 
-.some__info__image img {
-  flex: 1 1 570px;
-  height: 380px;
+.some__info-block__image {
+  max-width: 39.58%;
+  object-fit: cover;
+  object-position: left;
 }
 
-.some__info__container {
+.some__info-block__content {
+  padding: 98px 120px 74px 0;
   display: flex;
   justify-content: space-between;
-  width: 805px;
-
+  flex-basis: 60.42%;
 }
 
-.info__column,
-.enfold__column,
-.hours__column {
-  width: 240px;
-}
-
-.column__title {
-  margin: 98px 0 54px 0;
+.some__info-block__title {
   font-size: 14px;
   line-height: 11px;
   letter-spacing: -0.006em;
@@ -140,13 +133,14 @@ h6 {
   font-weight: bold;
 }
 
-.column__text {
+.some__info-block__text {
+  margin-top: 54px;
   font-size: 14px;
   line-height: 23px;
   letter-spacing: -0.006em;
   color: rgba(34, 53, 111, 0.5);
 }
 
-.mail {
+.mail__text {
   color: #006DFF;
 }
