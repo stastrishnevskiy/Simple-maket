@@ -102,23 +102,20 @@ body {
 }
 
 .footer-block {
-  background-color: #62D0DF;
-  padding-left: 194px;
-}
-
-.footer__row {
+  background-color: var(--color-blue-main);
+  padding: 32px 0px 26px 194px;
   display: flex;
-  align-items: center;
-  height: 80px;
+  max-width: 1440px;
 }
 
-.footer__text p {
+.footer__text {
   font-size: 14px;
   line-height: 11px;
-  letter-spacing: -0.006em;
-  color: #FFFFFF;
+  letter-spacing: -0.084px;
+  color: var(--color-white-main);
 }
 
-.footer__span {
+.footer__text::before {
+  content: "©";
   margin-right: 6px;
 }
