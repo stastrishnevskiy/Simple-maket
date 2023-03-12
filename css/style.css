@@ -1,5 +1,7 @@
 :root {
   --color-blue-main: #62d0df;
+  --color-blue-dark: #319ead;
+  --color-white-main: #ffffff;
   --color-blue-second: #6cd3e1;
   --color-blue-dark: #319ead;
   --color-white-main: #ffffff;
@@ -468,7 +470,6 @@ body {
   height: fit-content;
 }
 
-
 .health-plan-block {
   margin-top: 22px;
   height: 100%;
@@ -541,4 +542,73 @@ body {
 
 .statistic-block__color__text {
   color: var(--color-blue-second);
+}
+
+.ready-block {
+  height: 100%;
+  display: flex;
+  gap: 201px;
+  background: var(--color-midnight-blue);
+}
+
+.ready-block__content {
+  padding: 103px 0 42px 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ready-block__contact__btn {
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.96px;
+  color: var(--color-white-main);
+  text-transform: uppercase;
+}
+
+.ready-block__title {
+  margin-top: 230px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 94px;
+  letter-spacing: -0.64px;
+  color: var(--color-white-main);
+}
+
+.ready-block__text {
+  margin-top: 75px;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.18px;
+  color: var(--color-white-main);
+  flex: 1 1 auto;
+}
+
+.ready-block__btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 1.6px;
+  color: var(--color-blue-main);
+  text-transform: uppercase;
+}
+
+.ready-block__btn:active {
+  color: var(--color-second-white);
+}
+
+.ready-block__btn:hover {
+  color: var(--color-second-white);
+}
+
+.ready-block__contact__btn:hover {
+  color: var(--color-blue-main);
+  font-size: 28px;
+}
+
+.ready-block__image {
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+  min-height: 800px;
+  object-fit: cover;
+  object-position: center;
 }
