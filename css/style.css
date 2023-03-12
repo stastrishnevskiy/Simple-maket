@@ -464,3 +464,31 @@ body {
   background-size: cover;
   height: fit-content;
 }
+
+
+.health-plan-block {
+  margin-top: 22px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.health-plan__item {
+  padding: 55px 77px 37px 105px;
+  width: 33.333%;
+}
+
+.health-plan__title {
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.84px;
+  color: var(--color-midnight-blue);
+}
+
+.health-plan__text {
+  margin-top: 28px;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+}
