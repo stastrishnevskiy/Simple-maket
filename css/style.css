@@ -317,3 +317,38 @@ body {
   font-size: 24px;
   line-height: 35.16px;
 }
+
+.about-block {
+  height: 100%;
+}
+
+.about-block__container {
+  padding: 150px 424px 76px 106px;
+  display: flex;
+  gap: 225px;
+}
+
+.about-block__title {
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  color: var(--color-midnight-blue);
+}
+
+.about-block__text {
+  max-width: 592px;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.12px;
+  color: var(--color-midnight-blue);
+}
+
+.about-block__slogan {
+  padding: 0 613px 24px 613px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  color: rgba(34, 53, 111, 0.5);
+}
