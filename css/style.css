@@ -8,6 +8,7 @@
   --color-text-gold: #f9b640;
   --color-green-option: #c4e769;
   --color-pink-option: #FFE2DE;
+  --color-black-main: #000000;
 }
 
 * {
@@ -167,7 +168,7 @@ body {
   display: block;
   width: 0%;
   height: 1px;
-  background-color: black;
+  background-color: var(--color-black-main);
   transition: width 0.3s ease;
 }
 
@@ -277,6 +278,84 @@ body {
   max-width: 1440px;
 }
 
+.why-block {
+  height: 100%;
+  display: flex;
+}
+
+.why-block__image {
+  order: 2;
+  flex-basis: 36.48%;
+  max-width: 36.48%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.why-block__content {
+  order: 1;
+  flex-basis: 63.52%;
+  max-height: 604px;
+  max-width: 914px;
+  background-color: var(--color-blue-main);
+  padding: 151px 181px 95px 178px;
+}
+
+.why-block__title {
+  font-size: 36px;
+  line-height: 27.42px;
+  letter-spacing: -0.006em;
+  font-weight: 600;
+  color: var(--color-white-main);
+}
+
+.why-block__text {
+  margin-top: 75px;
+  font-size: 20px;
+  line-height: 29.3px;
+  color: var(--color-white-main);
+}
+
+.bold__text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35.16px;
+}
+
+.about-block {
+  max-height: 481px;
+}
+
+.about-block__container {
+  padding: 150px 424px 76px 106px;
+  display: flex;
+  gap: 225px;
+}
+
+.about-block__title {
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  color: var(--color-midnight-blue);
+}
+
+.about-block__text {
+  max-width: 592px;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.12px;
+  color: var(--color-midnight-blue);
+}
+
+.about-block__slogan {
+  padding: 0 613px 24px 613px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  color: rgba(34, 53, 111, 0.5);
+}
+
 .sport-options-block {
   margin-bottom: 120px;
   display: flex;
@@ -323,47 +402,4 @@ body {
 
 .dark-blue {
   background-color: var(--color-navy);
-}
-
-.why-block {
-  height: 100%;
-  display: flex;
-}
-
-.why-block__image {
-  order: 2;
-  flex-basis: 36.48%;
-  max-width: 36.48%;
-  object-fit: cover;
-  object-position: left;
-}
-
-.why-block__content {
-  order: 1;
-  flex-basis: 63.52%;
-  max-height: 604px;
-  max-width: 914px;
-  background-color: var(--color-blue-main);
-  padding: 151px 181px 95px 178px;
-}
-
-.why-block__title {
-  font-size: 36px;
-  line-height: 27.42px;
-  letter-spacing: -0.006em;
-  font-weight: 600;
-  color: var(--color-white-main);
-}
-
-.why-block__text {
-  margin-top: 75px;
-  font-size: 20px;
-  line-height: 29.3px;
-  color: var(--color-white-main);
-}
-
-.bold__text {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 35.16px;
 }
