@@ -2,6 +2,10 @@
   --color-blue-main: #62d0df;
   --color-blue-dark: #319ead;
   --color-white-main: #ffffff;
+  --color-second-white: #f4f9e2;
+  --color-midnight-blue: #22356F;
+  --color-navy: #0052C1;
+  --color-text-gold: #f9b640;
   --color-blue-second: #6cd3e1;
   --color-blue-dark: #319ead;
   --color-white-main: #ffffff;
@@ -652,4 +656,23 @@ body {
 
 .mail__text {
   color: var(--color-blue-light);
+}
+
+.footer-block {
+  background-color: var(--color-blue-main);
+  padding: 32px 0px 26px 194px;
+  display: flex;
+  max-width: 1440px;
+}
+
+.footer__text {
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.084px;
+  color: var(--color-white-main);
+}
+
+.footer__text::before {
+  content: "©";
+  margin-right: 6px;
 }
