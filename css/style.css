@@ -112,7 +112,8 @@ h6 {
   font-weight: 400;
 }
 
-body {
+.wrapper {
+  margin: 0 auto;
   font-family: "Larsseit", sans-serif;
 }
 
