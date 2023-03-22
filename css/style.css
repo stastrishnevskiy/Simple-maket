@@ -238,18 +238,21 @@ h6 {
 
 .navbar__item:after {
   content: "";
-  margin-top: 5px;
   display: block;
   width: 0%;
   height: 1px;
-  background-color: var(--color-black-main);
+  background-color: var(--color-midnight-blue);
   transition: width 0.3s ease;
+  position: absolute;
+  left: 6px;
+  bottom: 5px;
+  right: 6px;
 }
 
 .navbar__item:hover:after,
 .navbar__item:focus:after,
 .navbar__item:active:hover {
-  width: 100%;
+  width: calc(100% - 12px);
 }
 
 .navbar__item:hover,
